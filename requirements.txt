@@ -1,0 +1,10 @@
+pandas
+langchain
+langchain-ollama
+pydantic
+python-dotenv
+tqdm
+pytest
+jupyter
+ipykernel
+matplotlib
