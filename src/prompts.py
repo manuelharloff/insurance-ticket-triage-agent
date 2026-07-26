@@ -1,6 +1,7 @@
 from langchain_core.prompts import ChatPromptTemplate
 
 
+# Prompt for checking whether a ticket is clear enough for initial triage
 information_assessment_prompt = ChatPromptTemplate.from_messages(
     [
         (
@@ -54,6 +55,8 @@ Assess the following customer ticket:
     ]
 )
 
+
+# Prompt for assigning one topic and one urgency level to a ticket
 classification_prompt = ChatPromptTemplate.from_messages(
     [
         (
